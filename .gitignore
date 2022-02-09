@@ -1,0 +1,6 @@
+# ignore mac file
+.DS_Store
+node_modules/
+.cache/
+.parcel-cache/
+.parcel-cache/data.mdb

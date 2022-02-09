@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  border: 1px solid black;
+  width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+.line {
+  display: flex;
+  margin: 5%;
+}
+#reload {
+  margin-left: 10px;
+  padding: 0px 25px;
+}
+#date-string {
+  padding: 1%;
+  font-size: 1.3rem;
+}
+table {
+  margin-top: 2%;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr th {
+  border: 1px solid black;
+  padding: 10px 30px;
+  background-color: grey;
+  color: aliceblue;
+  width: 30vw;
+}
+
+tr td {
+  border: 1px solid black;
+  padding: 10px 30px;
+}
+
+tr:nth-child(odd) {
+  background-color: beige;
+}
+
+#info p {
+  margin-left: 20px;
+}

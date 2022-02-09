@@ -1,0 +1,18 @@
+{
+  "author": "Jean Nguyen",
+  "license": "MIT",
+  "name": "exchange",
+  "version": "1.0.0",
+  "description": "application for presenting current exchange rates",
+  "source": "src/index.html",
+  "scripts": {
+    "serveur": "node server.js",
+    "build": "parcel build src/*.html --public-url ./"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
