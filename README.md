@@ -11,6 +11,6 @@ Steps :
   - clone the repositorie
   - cd Optidigital-projet-exchange
   - install package
-  - yarn build or npm run build 
+  - yarn serveur or npm run serveur 
   - http://localhost:3000
   
